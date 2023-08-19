@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #df6951;
+  border-radius: 34px;
+  margin-top: 28px;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.links a:hover::before {
+  opacity: 1;
+}
+
+.links a {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header-content button {
+  background: #df6951;
+  padding: 17px 26px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.header-content button:hover {
+  background: #da5c43;
+}
+
+#hero {
+  min-height: 100vh;
+  background: url(./images/arstanbekovich.png) no-repeat center/cover;
+  padding-top: 200px;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 59px;
+  max-width: 631px;
+}
+
+.hero-content button:hover {
+  background: #da5c43;
+}
+
+.glass {
+  max-width: 844px;
+  padding: 23px 27px;
+  border-radius: 5.224px;
+  background: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(17.760618209838867px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.glass button {
+  background: #df6951;
+  padding: 17px 57px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.glass-span span {
+  font-size: 18px;
+  color: white;
+  padding: 5px 51px;
+  border-right: 3px solid #d0d0d0;
+}
+
+.span {
+  border: none !important;
+}
+
+.icons {
+  display: flex;
+  position: relative;
+  margin-top: 25px;
+}
+
+.icons img {
+  position: absolute;
+}
+
+.icon2 {
+  margin-left: 20px;
+}
+
+.icon3 {
+  margin-left: 40px;
+}
+.icon4 {
+  margin-left: 60px;
+}
+.icon5 {
+  margin-left: 80px;
+}
+.icon6 {
+  margin-left: 100px;
+}
+.icon7 {
+  margin-left: 120px;
+}
+
+.icons span {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  margin-top: 4px;
+  z-index: 99;
+  left: 132.5px;
+}
+
+.p {
+  color: white;
+  margin-left: 170px;
+  margin-top: 6px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.flex {
+  background: white;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.service h4 {
+  color: #df6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.service h2 {
+  color: #181e4b;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+
+.service h4 {
+  color: #da5c43;
+}
+
+.foto-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 267px;
+  width: 100%;
+  gap: 10px;
+  min-height: 314px;
+  color: var(--textclr) #5e6282;
+  border-radius: 36px;
+}
+
+.foto-service img {
+  width: 72px;
+}
+
+.foto-service h4 {
+  color: var(--text-heading-color, #1e1d4c);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.foto-service p {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
